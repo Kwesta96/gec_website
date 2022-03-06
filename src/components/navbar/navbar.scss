@@ -1,0 +1,71 @@
+.navbar{
+
+    .wrapper{
+        height: 120px;
+        padding: 0 100px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+
+        .navLeft{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .logo{
+                font-size: 40px;
+                font-weight: 900;
+                color: #0274BE;
+            }
+        }
+
+        .navRight{
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+
+            .navTop{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                margin-bottom: 20px;
+
+                .phoneIcon{
+                    font-weight: 600;
+                    color: #0274BE;
+                }
+
+                .number{
+                    font-size: 24px;
+                    font-weight: 600;
+                    margin-left: 15px;
+                }
+            }
+
+            .navBottom{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                .menuItems{
+                    display: flex;  
+                    list-style: none;
+
+                    .menuBtn{
+                        text-decoration: none;
+                        color: black;
+                        margin-left: 25px;
+                        font-size: 20px;
+                        transition: all 0.3s ease;
+
+                        &:hover{
+                            color: #0274BE;
+                            border-bottom: 1px solid #0274BE;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
